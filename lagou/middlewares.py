@@ -4,8 +4,77 @@
 #
 # See documentation in:
 # https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-
+import random
+import requests
 from scrapy import signals
+from fake_useragent import UserAgent  # 提供随机的UserAgent
+from lagou.proxies import Proxy
+from lagou.settings import API_URL
+
+
+class RandomUserAgentMiddleware(object):
+    def __init__(self, crawler):
+        super(RandomUserAgentMiddleware, self).__init__()
+        self.ua = UserAgent()
+        self.ua_type = crawler.settings.get('RANDOM_UA_TYPE', 'random')
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(crawler)
+
+    def process_request(self, request, spider):
+        def get_ua():
+            return getattr(self.ua, self.ua_type)
+
+        user_agent_random = get_ua()
+        request.headers.setdefault('User-Agent', user_agent_random)
+
+
+class ProxyMiddleWare(object):
+    PROXIES = None
+
+    def get_proxies(self):
+        pro = Proxy()
+        ProxyMiddleWare.PROXIES = ["{protocol}://{ip}:{port}".format(
+            protocol=proxy_tuple[-1].lower(),
+            ip=proxy_tuple[0],
+            port=proxy_tuple[1]) for proxy_tuple in pro.get_access_ip(size=200)]
+
+    # def get_random_proxy(self):
+    #     if not ProxyMiddleWare.PROXIES:
+    #         self.get_proxies()
+    #     # proxy_tuple = random.choice(ProxyMiddleWare.PROXIES)
+    #     # proxy = "{protocol}://{ip}:{port}".format(protocol=proxy_tuple[-1].lower(), ip=proxy_tuple[0],
+    #     #                                           port=proxy_tuple[1])
+    #     return random.choice(ProxyMiddleWare.PROXIES)
+    def get_random_proxy_from_api(self):
+        return 'http://' + requests.get('http://{api_url}/get/'.format(api_url=API_URL)).content.decode("utf-8")
+
+    def get_random_proxy_from_txt(self):
+        if not ProxyMiddleWare.PROXIES:
+            with open('F:\GraduationProject\lagou\lagou\proxies.txt', 'r') as f:
+                ProxyMiddleWare.PROXIES = f.readlines()
+        proxy = random.choice(ProxyMiddleWare.PROXIES).strip()
+        return 'https://' + proxy
+
+    def process_request(self, request, spider):
+        if request.method.lower() == 'get':
+            return None
+        # proxy = self.get_random_proxy_from_txt()
+        proxy = self.get_random_proxy_from_api()
+        print("this is request ip:" + proxy)
+        request.meta['proxy'] = proxy
+        request.meta['download_timeout'] = 10
+
+    def process_response(self, request, response, spider):
+        # 如果返回的response状态不是200，重新生成当前request对象
+        if response.status != 200:
+            # proxy = self.get_random_proxy_from_txt()
+            proxy = self.get_random_proxy_from_api()
+            print("this is response ip:" + proxy)
+            request.meta['proxy'] = proxy
+            return request
+        return response
 
 
 class LagouSpiderMiddleware(object):
