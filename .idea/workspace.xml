@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d9d61a4-98c5-46cb-8dff-f60ca3ac763b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lagou/migrations/001_migration_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lagou/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lagou/proxies.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lagou/spiders/lagou_spider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lagou.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lagou.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lagou/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/lagou/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lagou/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/lagou/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lagou/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/lagou/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lagou/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/lagou/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou/spiders/lagou_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/lagou/spiders/lagou_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/lagou$proxies.coverage" NAME="proxies Coverage Results" MODIFIED="1525422361533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lagou" />
-    <SUITE FILE_PATH="coverage/lagou$xy.coverage" NAME="xy Coverage Results" MODIFIED="1525352457309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../xici" />
+    <SUITE FILE_PATH="coverage/lagou$xy.coverage" NAME="xy Coverage Results" MODIFIED="1525352457309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="F:/xici" />
     <SUITE FILE_PATH="coverage/lagou$models.coverage" NAME="models Coverage Results" MODIFIED="1525441220687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lagou" />
   </component>
   <component name="FileEditorManager">
@@ -31,8 +22,8 @@
       <file leaf-file-name="lagou_spider.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lagou/spiders/lagou_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="264">
+              <caret line="185" column="44" selection-start-line="185" selection-start-column="44" selection-end-line="185" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -40,7 +31,7 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lagou/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
+            <state relative-caret-position="946">
               <caret line="46" column="62" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="62" />
               <folding>
                 <element signature="e#193#232#0" expanded="true" />
@@ -52,8 +43,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lagou/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="104" column="18" lean-forward="true" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+            <state relative-caret-position="176">
+              <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -61,7 +52,7 @@
       <file leaf-file-name="proxies.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lagou/proxies.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1702">
+            <state relative-caret-position="2178">
               <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
             </state>
           </provider>
@@ -90,15 +81,15 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/proxies.py" />
-        <option value="$PROJECT_DIR$/../xici/xy.py" />
+        <option value="F:/xici/xy.py" />
         <option value="$PROJECT_DIR$/lagou/migrations/001_migration_name.py" />
         <option value="$PROJECT_DIR$/lagou/items.py" />
         <option value="$PROJECT_DIR$/lagou/models.py" />
         <option value="$PROJECT_DIR$/lagou/proxies.py" />
         <option value="$PROJECT_DIR$/lagou/pipelines.py" />
         <option value="$PROJECT_DIR$/lagou/proxies.txt" />
-        <option value="$PROJECT_DIR$/lagou/settings.py" />
         <option value="$PROJECT_DIR$/lagou/middlewares.py" />
+        <option value="$PROJECT_DIR$/lagou/settings.py" />
         <option value="$PROJECT_DIR$/lagou/spiders/lagou_spider.py" />
       </list>
     </option>
@@ -113,7 +104,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
+    <option name="x" value="-6" />
+    <option name="y" value="59" />
     <option name="width" value="1186" />
     <option name="height" value="788" />
   </component>
@@ -146,10 +138,6 @@
               <item name="lagou" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="lagou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xici" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -159,7 +147,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../xici" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
@@ -270,7 +258,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="36" y="0" width="1186" height="788" extended-state="0" />
+    <frame x="-6" y="59" width="1186" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -279,8 +267,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31191224" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17350428" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33035713" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17350428" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -310,6 +298,68 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lagou/spiders/lagou_spider.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="62" />
+          <folding>
+            <element signature="e#193#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/proxies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1298">
+          <caret line="59" column="11" lean-forward="true" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/spiders/lagou_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="46" column="62" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="62" />
+          <folding>
+            <element signature="e#193#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2288">
+          <caret line="104" column="18" lean-forward="true" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/proxies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2178">
+          <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/spiders/lagou_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2992">
           <caret line="136" column="88" lean-forward="true" selection-start-line="136" selection-start-column="88" selection-end-line="136" selection-end-column="88" />
         </state>
@@ -319,9 +369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1276">
           <caret line="58" column="48" lean-forward="true" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
-          <folding>
-            <element signature="e#168#181#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -339,9 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
           <caret line="51" column="12" selection-start-line="51" selection-start-column="12" selection-end-line="53" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,9 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1958">
           <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,20 +462,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/lagou/lagou/settings.py">
+    <entry file="file://$PROJECT_DIR$/lagou/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="59" column="46" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../xici/xy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/xici/xy.py" />
     <entry file="file://C:/ProgramData/Anaconda3/envs/ncbiscrapy/Lib/site-packages/twisted/internet/defer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -449,7 +484,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/lagou/lagou/middlewares.py">
+    <entry file="file://$PROJECT_DIR$/lagou/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="42" selection-end-column="20" />
@@ -464,13 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/BaiduNetdiskDownload/vcp/logic/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="94" selection-start-line="94" selection-end-line="97" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://F:/BaiduNetdiskDownload/vcp/logic/settings.py" />
     <entry file="file://$PROJECT_DIR$/lagou/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -482,9 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,36 +521,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lagou/pipelines.py___jb_tmp___">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lagou/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="72" column="52" lean-forward="true" selection-start-line="72" selection-start-column="52" selection-end-line="72" selection-end-column="52" />
-          <folding>
-            <element signature="e#168#181#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lagou/proxies.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1702">
+        <state relative-caret-position="2178">
           <caret line="99" column="17" selection-start-line="99" selection-start-column="17" selection-end-line="99" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lagou/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="104" column="18" lean-forward="true" selection-start-line="104" selection-start-column="18" selection-end-line="104" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lagou/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
+        <state relative-caret-position="946">
           <caret line="46" column="62" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="62" />
           <folding>
             <element signature="e#193#232#0" expanded="true" />
@@ -532,10 +545,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lagou/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lagou/spiders/lagou_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="264">
+          <caret line="185" column="44" selection-start-line="185" selection-start-column="44" selection-end-line="185" selection-end-column="44" />
         </state>
       </provider>
     </entry>

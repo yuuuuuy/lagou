@@ -152,6 +152,7 @@ class LaGouSpider(scrapy.Spider):
             elif self.city_index < len(self.city_list) - 1:
                 self.city_index += 1
                 self.curpage = 1
+                self.total_page_count = None
                 self.key = self.key_words[self.key_index]
                 self.city = self.city_list[self.city_index]
                 print('Change the city to ', self.city)
@@ -165,6 +166,7 @@ class LaGouSpider(scrapy.Spider):
                 self.curpage = 1
                 self.key_index += 1
                 self.city_index = 0
+                self.total_page_count = None
                 self.city = self.city_list[self.city_index]
                 self.key = self.key_words[self.key_index]
                 print('Change the keyword to ', self.key)
@@ -181,6 +183,7 @@ class LaGouSpider(scrapy.Spider):
                 self.curpage = 1
                 self.city_index = 0
                 self.key_index = 0
+                self.total_page_count = None
                 self.key_words = self.key_list[self.direction_index]['second_types']
                 self.city = self.city_list[self.city_index]
                 self.key = self.key_words[self.key_index]
